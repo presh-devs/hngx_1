@@ -1,16 +1,20 @@
 # hngx_1
 
-A new Flutter project.
+HNGX stage 1 task.
 
-## Getting Started
+## Introduction
 
-This project is a starting point for a Flutter application.
+This project is a 2-page Flutter app. The first page shows an image (which is also the slack profile picture), a name (corresponding to the slack username) and a button with title 'Open GitHub' that opens the second page which is a webview of my Github page. 
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+Minimum SDk is set to 19, so app will not run on devices running lower SDk versions.
+- Clone the repo
+- run 'flutter pub get' to get all the packages and dependecies
+- run the command 'flutter run'
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Assumptions
+It was assumed that the slack image to be displayed doesn't have to be sourced from Slack rather just an image that matches the profile picture on slack.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Packages used
+The only external package used is the webview_flutter package.
+
