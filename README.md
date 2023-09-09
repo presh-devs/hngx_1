@@ -18,3 +18,6 @@ It was assumed that the slack image to be displayed doesn't have to be sourced f
 ## Packages used
 The only external package used is the webview_flutter package.
 
+## Demonstration
+Appetize (https://appetize.io/app/aj63lq74enkhpr3cf4fsa54ri4?device=pixel4&osVersion=11.0&scale=75)
+
